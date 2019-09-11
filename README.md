@@ -200,7 +200,102 @@ class Desarrollador extends Persona{
 
 
 }
+var sacha = new Desarrollador( 'sacha Fer' , 'sanchez');
 ```
+
+- Pasar funcion para parametro
+```javascript
+class Persona{
+
+	constructor( nombre , apellido ){
+
+		this.nombre   = nombre;
+		this.apellido = apellido;
+		this.edad     = 37;
+
+		console.log('se ejecuto la funcion =' );
+
+	};
+
+	saludar( fn ){
+
+		console.log(`hola me llamo ${this.nombre} y el apellido ${ this.apellido }`);
+
+		if (fn) {
+
+
+			fn( this.nombre, this.apellido );
+		}
+	};
+}
+
+class Desarrollador extends Persona{
+
+	constructor( nombre , apellido ){
+		
+		super( nombre , apellido);
+
+		this.nombre   = nombre;
+		this.apellido = apellido;
+		this.edad     = 37;
+
+		console.log('se ejecuto la funcion =Desarrollador' );
+
+	};
+
+	saludar( fn ){
+
+		var { nombre , apellido } = this;
+
+		console.log(`hola me llamo ${nombre} y el apellido ${apellido} desde el desarrollador`);
+
+
+		if (fn) {
+
+
+			fn( nombre, apellido, true );
+		}
+	};
+}
+
+var sacha = new Persona( 'sacha Fer' , 'sanchez');
+var kaka = new Desarrollador( 'kaka Fer' , 'Garcia');
+var remiro = new Desarrollador( 'remiro' , 'Fernandes');
+
+
+
+function responderSaludo(nombre, apellido , esDev){
+
+	console.log(`Good Morning my name is ${nombre} ${apellido}`);
+
+	if(esDev){
+
+		console.log(`ooooooooooooooooooooooooooooooooooooohh es Dev ${nombre} ${apellido}`);
+	}
+}
+
+
+sacha.saludar( responderSaludo );
+kaka.saludar(  );
+remiro.saludar( responderSaludo );
+```
+
+## EventLoop
+JavaScript poseé un modelo de concurrencia basado en un "loop de eventos". Este modelo es bastante diferente al modelo de otros lenguajes como C o Java.
+[EventLoop](https://developer.mozilla.org/es/docs/Web/JavaScript/EventLoop)
+
+### Montículo (Heap)
+- Los objetos son colocados en un montículo, el cual, como su nombre lo dice, denota una gran región de memoria, mayormente sin estructura u orden.
+
+### Cola (Queue)
+- Un programa en ejecución en JavaScript contiene una cola de mensajes, la cual es una lista de mensajes a ser procesados. Cada mensaje se asocia con una función. Cuando la pila está vacía, un mensaje es sacado de la cola y procesado. Procesar un mensaje consiste en llamar a la función asociada al mensaje (y por ende crear una frame en la pila). El mensaje procesado termina cuando la pila está vacía de nuevo.
+
+### Promises
+-Una Promise (promesa en castellano) es un objeto que representa la terminación o el fracaso eventual de una operación asíncrona. Dado que la mayoría de las personas consumen promises ya creadas, esta guía explicará primero cómo consumirlas, y luego  cómo crearlas.
+- [pending] 
+	--> si resuelve [ fulfilled] => .then() # exitoso
+	-->  si reject [ rejected ] => .catch()
+
 
 ## References
 
