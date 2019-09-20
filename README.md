@@ -11,7 +11,7 @@ project Uber a realizar con reactjs como frontend, express y un framework a defi
 
 - ✅ [1.history](https://github.com/wizanchez/team_losdos/tree/master/1.history)
 - ✅ [2.mokups](https://github.com/wizanchez/team_losdos/tree/master/2.mokups)
-- ✖ 3.maquetacion
+- ✖ [3.maquetacion](https://github.com/wizanchez/team_losdos/tree/master/3.maquetacion)
 - ✖ 4.definir el MpV
 - ✖ 5.modelo MER (definicion DB engine)
 - ✖ 6.definicion Arquitectura de Folder
