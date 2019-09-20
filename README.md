@@ -9,22 +9,27 @@ project Uber a realizar con reactjs como frontend, express y un framework a defi
 
 ## Pasos
 
-- ✅ 1.history
-- ⚡ 2.mokups
-- ⚡ 3.maquetacion
-- ⚡ 4.definir el MpV
-- ⚡ 5.modelo MER (definicion DB engine)
-- ⚡ 6.definicion Arquitectura de Folder
-- ⚡ 7.Patron de Disenho
-- ⚡ 8.Definir componentes reutilizables
-- ⚡ 9.realizar maquetacion en en reactjs
-- ⚡ 10.realizar los APIREST para cada servicio
-- ⚡ 11.tareas a trabajar
+- ✅ [1.history](https://github.com/wizanchez/team_losdos/tree/master/1.history)
+- ✅ [2.mokups](https://github.com/wizanchez/team_losdos/tree/master/2.mokups)
+- ✖ 3.maquetacion
+- ✖ 4.definir el MpV
+- ✖ 5.modelo MER (definicion DB engine)
+- ✖ 6.definicion Arquitectura de Folder
+- ✖ 7.Patron de Disenho
+- ✖ 8.Definir componentes reutilizables
+- ✖ 9.realizar maquetacion en en reactjs
+- ✖ 10.realizar los APIREST para cada servicio
+- ✖ 11.tareas a trabajar
 
 ## Herramientas
 
 - **sketch:** para realizar los mockups
 - **vscode:** herramienta de desarrollo
+
+## Librerias
+
+- **Bootstrap:** Libreria css para utilizar responsive design
+- **Reactjs:** Libreria para web component , en frontend
 
 ## Tips
 
