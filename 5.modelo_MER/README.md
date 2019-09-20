@@ -8,7 +8,7 @@
 
 ## LOGS
 
-- **2019-09-20:** Se realizo la propuesta del modelo relacional [ Ver Aqui](https://github.com/wizanchez/team_losdos)
+- **2019-09-20:** Se realizo la propuesta del modelo relacional [ Ver Aqui](https://github.com/wizanchez/team_losdos/blob/master/5.modelo_MER/ubersan_mer.png)
 
 ## Herramientas
 

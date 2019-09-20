@@ -14,11 +14,10 @@ project Uber a realizar con reactjs como frontend, express y un framework a defi
 - ✖ [3.maquetacion](https://github.com/wizanchez/team_losdos/tree/master/3.maquetacion)
 - ✖ [4.definir_el_MvP](https://github.com/wizanchez/team_losdos/tree/master/4.definir_el_MVP)
 - ✅ [5.modelo_MER](https://github.com/wizanchez/team_losdos/tree/master/5.modelo_MER) *(definicion DB engine)*
-- ✖ [6.definicion_Arquitectura_y_PD](6.definicion_Arquitectura_y_PD)
-- ✖ 7.Definir componentes reutilizables
-- ✖ 8.realizar maquetacion en en reactjs
-- ✖ 9.realizar los APIREST para cada servicio
-- ✖ 10.tareas a trabajar
+- ✖ [6.definicion_Arquitectura_y_PD](https://github.com/wizanchez/team_losdos/tree/master/6.definicion_Arquitectura_y_PD)
+- ✖ [7.maquetacion_en_reactjs](https://github.com/wizanchez/team_losdos/tree/master/7.maquetacion_en_reactjs)
+- ✖ [8.APIREST_para_los_servicio](https://github.com/wizanchez/team_losdos/tree/master/8.APIREST_para_los_servicio)
+- ✖ [9.source_code](https://github.com/wizanchez/team_losdos/tree/master/9.source_code)
 
 ## Herramientas
 
