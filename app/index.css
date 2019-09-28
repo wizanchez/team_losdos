@@ -1,0 +1,65 @@
+.ubersan-color{
+	background-color: #0699cd !important;
+}
+
+.btn-ubersan{
+	background-color: #97c93e !important;
+	color: white;
+}
+
+.btn-ubersan:hover{
+	background-color: #6c902b !important;
+	color: white;
+}
+
+#header .nav-link{
+	color: whitesmoke !important;
+	margin-left: 10px;
+}
+
+#header .nav-link:hover{
+	text-decoration: underline;
+}
+
+#header img{
+	width: 125px;
+}
+
+#main .carousel-inner img{
+	max-height: 70vh;
+	object-fit: cover;
+}
+
+#carousel{
+	position: relative;
+}
+
+#carousel .overlay{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(6,153,205,0.7);
+	color: white;
+	z-index: 1;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row{
+	height: 100%;
+}
+
+.card img{
+	width: 70px;
+	display: block;
+	margin: 7px auto;
+}
+
+#footer{
+	background: linear-gradient(90deg, #1c3643 0, #273b47 25%, #1e5372);
+}
+
+#footer a{
+	color: white;
+}
