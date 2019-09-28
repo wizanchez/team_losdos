@@ -354,6 +354,36 @@ vim package.json
 npm run build
 ```
 
+## Trabajar con TypeScript
+
+- primero colocamos en el ```.gitignore``` lo siguiente 
+```
+node_modules
+.cache
+dist
+```
+
+- instalar el conversol parcel
+```
+npm install -D parcel-bundler 
+```
+
+- ahora vamos a nuestro ```package.json``` cambiamos el key start
+```json
+  "scripts": {
+    "start": "parcel /*ACA VAN LOS FOLDER DOND ESTE LOS .TS*/"
+  },
+.
+.
+.
+.
+.
+// opcional
+,"browserslist":[
+  "last 1 Chrome version"
+]
+```
+
 ## References
 
 URLs references:
