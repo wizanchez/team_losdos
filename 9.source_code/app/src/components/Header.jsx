@@ -27,6 +27,8 @@ const Header = ( props ) =>{
 
 	};
 
+	const lang = window.translations.messages;
+
 	return (
 		<nav id="header"  className="navbar ubersan-color navbar-expand-lg sticky-top">
 			<div className="container" >
@@ -40,13 +42,13 @@ const Header = ( props ) =>{
 		  		<div className="collapse navbar-collapse" id="navbar">
 					<ul className="navbar-nav ml-auto">
 			  			<li className="nav-item">
-							<a className="nav-link" href="#driver">CONDUCTOR</a>
+							<a className="nav-link" href="#driver">{ lang['CONDUCTOR'] }</a>
 			  			</li>
 			  			<li className="nav-item">
-							<a className="nav-link" href="#passenger">PASAJERO</a>
+							<a className="nav-link" href="#passenger">{ lang['PASAJERO']}</a>
 			  			</li>
 			  			<li className="nav-item">
-							<a className="nav-link" href="#">INICIA SESIÓN</a>
+							<a className="nav-link" href="#">{ lang['INICIA SESIÓN']}</a>
 			  			</li>
 					</ul>
 		  		</div>

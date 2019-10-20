@@ -1,9 +1,11 @@
 import React from 'react';
 import banner1 from '../../assets/static/banner1.jpg';
+import '../../assets/styles/components/Home.scss';
 
-const Main = ({ children }) => (
+export const Main = ({ lang }) => (
 	    <main id="main">
-            <div id="carousel" className="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+            <div>
+                <div id="carousel" className="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <img className="d-block w-100" src={banner1} alt="Banner 1" />
@@ -14,9 +16,7 @@ const Main = ({ children }) => (
                         <div className="row align-items-center">
                             <div className="col-md-4 text-center text-md-left">
                                 <div className="d-none d-md-block" style={ styleMain.carousel__titlebig }>
-                                    Más seguridad, <br />
-                                    mayor calidad y una <br />
-                                    ciudad a tu alcance <br />
+                                    { lang['Más seguridad, \n mayor calidad y una \nciudad a tu alcance \n']}
                                 </div>
                             </div>
                             
@@ -29,16 +29,51 @@ const Main = ({ children }) => (
                     </div>
                 </div>
             </div>
+            </div>
         </main>
   );
-  
-  export default Main ;
 
-  const styleMain ={
+export const MainDescription = ({ lang }) =>(
+
+    <div className="row">
+        <div className="col text-left">
+            <h2>{ lang['Conduce con la app cuando quieras'] }</h2>
+            <p className="mt-3 mb-4" style={ styleMain.MainDescription__sutitle } >{ lang['Genera las ganancias que quieras Just to want it And not to need it Makes me let it fall But then you let me in And I dont want it But you made me believe it So do I really? Do I really want?']}</p>
+        </div>
+    </div>
+);
+
+
+export const MainBox = ({ title , descrip ,img }) =>(
+
+    <div className="col-12 col-md-6">
+        <div className="card">
+            <img src={img} style={ styleMain.MainBox__img } alt="Mejor calidad" />
+            <div className="card-body">
+            <h5 className="card-title">{ title }</h5>                
+            <p className="card-text">{ descrip }</p>
+        </div>
+    </div>
+  </div>
+
+);
+
+const styleMain ={
 
     carousel__titlebig:{
         fontSize: '2.3rem',
         fontWeight:500,
         lineHeight:'2.5rem',  
     }
-  }
+    ,MainDescription__sutitle:{
+
+        fontSize: '1.3rem',
+        fontWeight: 400
+    }
+    ,MainBox__img:{
+        width: '70px',
+        display: 'block',
+        margin: '7px auto'
+    }
+
+}
