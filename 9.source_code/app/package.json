@@ -1,7 +1,7 @@
 {
   "name": "PlatziVideo",
   "version": "1.0.0",
-  "description": "",
+  "description": "- Clonamos el proyecto ```bash git clone https://github.com/platzi/PlatziVideo.git ``` - Instalamos npm ```bash npm install ```",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
