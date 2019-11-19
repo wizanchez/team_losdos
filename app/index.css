@@ -1,3 +1,6 @@
+body{
+	size: 16px;
+}
 .ubersan-color{
 	background-color: #0699cd !important;
 }
@@ -10,6 +13,10 @@
 .btn-ubersan:hover{
 	background-color: #6c902b !important;
 	color: white;
+}
+
+#header {
+	min-height: 10vh;
 }
 
 #header .nav-link{
@@ -26,7 +33,7 @@
 }
 
 #main .carousel-inner img{
-	max-height: 70vh;
+	height: 445px;
 	object-fit: cover;
 }
 
@@ -63,3 +70,85 @@
 #footer a{
 	color: white;
 }
+
+.contact-form{
+	width: 300px;
+	background-color: rgba(22, 105, 134,0.9) !important;
+	opacity: 0.8;
+	border: 1px solid whitesmoke;
+	padding: 15px 20px;
+	border-radius: 25px;	
+	position: absolute;
+	right: 120px;
+
+}
+
+.contact-form__title{
+	font-size: 18px;
+	font-weight: 700;
+
+}
+
+.contact-form__input{
+	border-radius: 10px;
+	margin-bottom: 10px;
+	padding: 3px 5px;
+	width: 100%;
+	height: 35px;
+	border: 1px solid whitesmoke;
+	background: rgba(22, 105, 134,0.9) !important;
+	font-size: 14px;
+	color:white;
+}
+
+.contact-form__input::placeholder{
+	color: white;
+}
+
+.contact-form__button{
+	border-radius: 25px;
+    background-color: white;
+    padding: 5px 10px;
+    margin: auto;
+    font-weight: 700;
+    width: 100%;
+}
+
+.contact-login__title{
+	size: 1.8em;
+	text-align: center;
+	color: #2C3531;
+}
+
+.contact-login__input{
+	border-radius: 10px;
+	margin-bottom: 10px;
+	padding: 5px 5px;
+	width: 100%;
+	border: 1px solid rgb(22, 105, 134);
+	font-size: 1.2em;
+}
+
+.contact-login__input::placeholder{
+	font-size: 0.8em;
+}
+
+.contact-login__button{
+	
+}
+
+/* .container-login{
+	height: 78vh;
+	position: relative;
+} */
+
+/* .login-form{
+	width: 300px;
+	border: 1px solid black;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	
+} */
