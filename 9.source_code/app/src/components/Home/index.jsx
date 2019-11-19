@@ -1,7 +1,7 @@
 import React from 'react';
 import banner1 from '../../assets/static/banner1.jpg';
 import '../../assets/styles/components/Home.scss';
-import Register from '../../containers/Register';
+//import Register from '../../containers/Register';
 
 export const Main = ({ lang }) => (
 	    <main id="main">
