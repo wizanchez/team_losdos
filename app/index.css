@@ -1,36 +1,7 @@
-body{
+/*body{
 	size: 16px;
 }
-.ubersan-color{
-	background-color: #0699cd !important;
-}
 
-.btn-ubersan{
-	background-color: #97c93e !important;
-	color: white;
-}
-
-.btn-ubersan:hover{
-	background-color: #6c902b !important;
-	color: white;
-}
-
-#header {
-	min-height: 10vh;
-}
-
-#header .nav-link{
-	color: whitesmoke !important;
-	margin-left: 10px;
-}
-
-#header .nav-link:hover{
-	text-decoration: underline;
-}
-
-#header img{
-	width: 125px;
-}
 
 #main .carousel-inner img{
 	height: 445px;
@@ -55,7 +26,7 @@ body{
 #carousel .overlay .container,
 #carousel .overlay .row{
 	height: 100%;
-}
+}*/
 
 .card img{
 	width: 70px;
@@ -71,7 +42,7 @@ body{
 	color: white;
 }
 
-.contact-form{
+/*.contact-form{
 	width: 300px;
 	background-color: rgba(22, 105, 134,0.9) !important;
 	opacity: 0.8;
@@ -112,7 +83,7 @@ body{
     margin: auto;
     font-weight: 700;
     width: 100%;
-}
+}*/
 
 .contact-login__title{
 	size: 1.8em;

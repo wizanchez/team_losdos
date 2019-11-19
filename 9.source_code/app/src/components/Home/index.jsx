@@ -1,6 +1,7 @@
 import React from 'react';
 import banner1 from '../../assets/static/banner1.jpg';
 import '../../assets/styles/components/Home.scss';
+import Register from '../../containers/Register';
 
 export const Main = ({ lang }) => (
 	    <main id="main">
@@ -20,10 +21,7 @@ export const Main = ({ lang }) => (
                                 </div>
                             </div>
                             
-                            <div className="">
-                                <form>
-                                </form>
-                            </div>
+                            <RegisterForm />
 
                         </div>
                     </div>
@@ -57,6 +55,22 @@ export const MainBox = ({ title , descrip ,img }) =>(
   </div>
 
 );
+
+export const RegisterForm = () => (
+    <div className="contact-form">
+        <form>
+            <h2 className="contact-form__title">Registrate ahora</h2>
+            <input type="text" className="contact-form__input" placeholder="Correo electrónico" />
+            <input type="text" className="contact-form__input" placeholder="Nombre" />
+            <input type="text" className="contact-form__input" placeholder="Apellido" />
+            <input type="text" className="contact-form__input" placeholder="Movil" />
+            <input type="text" className="contact-form__input" placeholder="Contraseña" />
+            <input type="text" className="contact-form__input" placeholder="Ciudad" />
+            <input type="text" className="contact-form__input" placeholder="Bono Promocional" />
+            <button className="contact-form__button">Registrarse</button>
+        </form>
+    </div>
+)
 
 const styleMain ={
 

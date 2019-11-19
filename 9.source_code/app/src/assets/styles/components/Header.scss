@@ -1,27 +1,30 @@
 .ubersan-color{
-  // background-color: #0699cd !important;
-  background-color: rgba(6, 153, 205, 0.8);
+	background-color: #0699cd !important;
 }
 
 .btn-ubersan{
-  background-color: #97c93e !important;
-  color: white;
+	background-color: #97c93e !important;
+	color: white;
 }
 
 .btn-ubersan:hover{
-  background-color: #6c902b !important;
-  color: white;
+	background-color: #6c902b !important;
+	color: white;
+}
+
+#header {
+	min-height: 10vh;
 }
 
 #header .nav-link{
-  color: whitesmoke !important;
-  margin-left: 10px;
+	color: whitesmoke !important;
+	margin-left: 10px;
 }
 
 #header .nav-link:hover{
-  text-decoration: underline;
+	text-decoration: underline;
 }
 
 #header img{
-  width: 125px;
+	width: 125px;
 }

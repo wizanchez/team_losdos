@@ -32,9 +32,9 @@ const Header = ( props ) =>{
 	return (
 		<nav id="header"  className="navbar ubersan-color navbar-expand-lg sticky-top">
 			<div className="container" >
-		  		<a className="navbar-brand" href="#">
+		  		<Link className="navbar-brand" to="/">
 					<img src={logoUber} alt="UberSan logo" />
-		  		</a>
+		  		</Link>
 		  		<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span className="navbar-toggler-icon"></span>
 		  		</button>
@@ -48,7 +48,7 @@ const Header = ( props ) =>{
 							<a className="nav-link" href="#passenger">{ lang['PASAJERO']}</a>
 			  			</li>
 			  			<li className="nav-item">
-							<a className="nav-link" href="#">{ lang['INICIA SESIÓN']}</a>
+							<Link className="nav-link" to="/login">{ lang['INICIA SESIÓN']}</Link>
 			  			</li>
 					</ul>
 		  		</div>
