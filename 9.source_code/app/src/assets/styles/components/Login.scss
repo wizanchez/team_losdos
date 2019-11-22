@@ -1,49 +1,49 @@
-.contact-login{
-  height: 80vh;
-}
-
-.contact-login__title{
-	size: 1.8em;
-	text-align: center;
-	color: #2C3531;
-}
-
-.contact-login__input{
-	border-radius: 10px;
-	margin-bottom: 10px;
-	padding: 5px 5px;
-	width: 100%;
-	border: 1px solid rgb(22, 105, 134);
-	font-size: 1.2em;
-}
-
-.contact-login__input::placeholder{
-	font-size: 0.8em;
-}
-
-.contact-login__button{
-  box-shadow: 0px 1px 0px 0px #fff6af;
-	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
-	background-color:#ffec64;
-	border-radius:6px;
-	border:1px solid #ffaa22;
-	display:inline-block;
-	cursor:pointer;
-	color:#333333;
-	font-family:Arial;
-	font-size:1.2em;
-	font-weight:bold;
-	padding:6px 24px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #ffee66;	
-}
-
-
-.contact-login__button:hover {
-	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
-	background-color:#ffab23;
-}
-.contact-login__button:active {
-	position:relative;
-	top:1px;
-}
+.content-login{
+    height: 78vh;
+  }
+  
+  .content-login__title{
+      size: 1.8em;
+      text-align: center;
+      color: #2C3531;
+  }
+  
+  .content-login__input{
+      border-radius: 10px;
+      margin-bottom: 10px;
+      padding: 5px 5px;
+      width: 100%;
+      border: 1px solid rgb(22, 105, 134);
+      font-size: 1.2em;
+  }
+  
+  .content-login__input::placeholder{
+      font-size: 0.8em;
+  }
+  
+  .content-login__button{
+    box-shadow: 0px 1px 0px 0px #fff6af;
+      background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+      background-color:#ffec64;
+      border-radius:6px;
+      border:1px solid #ffaa22;
+      display:inline-block;
+      cursor:pointer;
+      color:#333333;
+      font-family:Arial;
+      font-size:1.2em;
+      font-weight:bold;
+      padding:6px 24px;
+      text-decoration:none;
+      text-shadow:0px 1px 0px #ffee66;	
+  }
+  
+  
+  .content-login__button:hover {
+      background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+      background-color:#ffab23;
+  }
+  .content-login__button:active {
+      position:relative;
+      top:1px;
+  }

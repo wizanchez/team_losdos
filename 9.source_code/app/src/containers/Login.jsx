@@ -30,13 +30,13 @@ const Login = ( props ) =>{
     // };
 
     return (
-    <section className="contact-login container-fluid" >
+    <section className="content-login container-fluid" >
         <div className="row">
             <form className="col-md-4 offset-md-4  mt-5">
-                <h2 className="mt-3 contact-login__title">Iniciar sesión</h2>
-                <input type="text" className="mt-3 contact-login__input" placeholder="Correo electrónico" />
-                <input type="text" className="mt-3 contact-login__input" placeholder="Password" />
-                <button className="mt-3 w-100  contact-login__button">Ingresar</button>
+                <h2 className="mt-3 content-login__title">Iniciar sesión</h2>
+                <input type="text" className="mt-3 content-login__input" placeholder="Correo electrónico" />
+                <input type="text" className="mt-3 content-login__input" placeholder="Password" />
+                <button className="mt-3 w-100  form__button">Ingresar</button>
             </form>
         </div>        
     </section>

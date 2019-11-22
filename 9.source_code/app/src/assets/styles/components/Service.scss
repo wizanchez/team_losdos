@@ -1,0 +1,70 @@
+$color_1: rgba(22, 105, 134,0.9) !important;
+.content-service{
+    min-height: 78vh;
+    background-image: url('../../static/map.png');
+    padding-top: 3px;
+}  
+
+.form-service{
+    width: 320px;
+	background-color: $color_1;
+	opacity: 0.8;
+	border: 1px solid whitesmoke;
+	padding: 15px 10px;
+	border-radius: 25px;	
+    right: 120px;
+}
+
+.form-service label{
+    width: 70px;
+    color:  whitesmoke;
+    font-weight: 900;
+}
+
+.form-service input{
+    background: $color_1;
+    margin-top: 5px; 
+    border: 1px solid white; 
+}
+
+.form-service__type{
+    width: 100%;
+    background: #fff;
+    margin: 10px 0;
+}
+
+.form-service__icon,
+.form-service__desc,
+.form-service__price{
+    display: inline-block;
+}
+
+.form-service__desc{
+    padding-left: 7px;
+    width: 120px;
+}
+
+.form-service__desc-name{
+    font-weight: 900;
+    font-size: 1.4em;
+}
+
+.form-service__desc-time{
+    font-weight: 900;
+    font-size: 0.8em;
+}
+
+.form-service__price{
+    padding-left: 10px;
+    font-weight: 900;
+    font-size: 1.1em;
+}
+
+.form-service__icon{
+    padding: 3px;
+    width: 70px;
+}
+
+.form-service__icon img{
+    width: 100%;
+}
